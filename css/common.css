@@ -1,4 +1,38 @@
+/* 版心 */
+
 .w {
     width: 1200px;
     margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+
+/* 快捷导航栏 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+    margin-top: 5px;
+}
+
+.fr ul li:nth-child(even) {
+    width: 1px;
+    height: 9px;
+    margin: 9px 15px 0px;
+    background-color: #666;
 }
