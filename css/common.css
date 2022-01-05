@@ -36,3 +36,194 @@
     margin: 9px 15px 0px;
     background-color: #666;
 }
+
+
+/* header头部制作 */
+
+.header {
+    height: 105px;
+    position: relative;
+    background-color: pink;
+}
+
+
+/* logo模块制作 start*/
+
+.logo {
+    position: absolute;
+    top: 25px;
+}
+
+.logo a {
+    /* 行内元素转块级元素 */
+    display: block;
+    width: 171px;
+    height: 56px;
+    background-image: url(../images/logo.png);
+}
+
+
+/* logo模块制作 end*/
+
+
+/* search模块制作 */
+
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    border-radius: 15px;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+    border-radius: 14px 0px 0px 14px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: white;
+    border-radius: 0px 14px 14px 0px;
+}
+
+
+/* 热点词模块 */
+
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+
+.hotwords ul li {
+    float: left;
+    margin: 0px 10px;
+}
+
+
+/* 购物车模块 */
+
+.shop_box {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+
+
+/* nav模块制作 */
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.nav .dropdown .dt {
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    font-family: '微软雅黑';
+}
+
+.nav .dropdown .dd {
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+
+.dropdown .dd li {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+
+.dropdown .dd li a {
+    font-size: 14px;
+    color: white;
+}
+
+.dropdown .dd li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd li:hover a {
+    color: #c81623;
+}
+
+.dropdown .dd li:hover a:after {
+    color: #c81623;
+}
+
+.nav .navitems {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav .navitems a {
+    padding-left: 45px;
+    padding-right: 10px;
+}
+
+
+/* footer部分 */
+
+.footer {
+    height: 415px;
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #f5f5f5;
+}
+
+.mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service ul li {
+    width: 300px;
+    height: 50px;
+    float: left;
+    padding-left: 35px;
+    background-color: pink;
+}
+
+.mod_service ul li h5 {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+}

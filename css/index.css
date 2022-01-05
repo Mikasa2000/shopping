@@ -1,0 +1,157 @@
+/* 首页专有模块 */
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 8px;
+    background-color: pink;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+.focus ul {
+    width: 400%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l {
+    position: absolute;
+    top: 420px;
+    font-size: 20px;
+    color: green;
+    width: 24px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.arrow-r {
+    position: absolute;
+    right: 370px;
+    font-size: 20px;
+    color: green;
+    top: 420px;
+    width: 24px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.circle {
+    position: absolute;
+    top: 620px;
+    left: 350px;
+    width: 80px;
+    height: 10px;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+    z-index: 2;
+}
+
+.current {
+    background-color: #FF732B;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    background-color: skyblue;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid yellow;
+}
+
+.news_title {
+    height: 33px;
+    border-bottom: 1px dotted yellow;
+}
+
+.news_title ul li:first-child {
+    float: left;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    padding-left: 15px;
+    line-height: 33px;
+}
+
+.news_title ul li:last-child {
+    float: right;
+    padding-right: 5px;
+    line-height: 33px;
+}
+
+.liveservice {
+    height: 209px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+
+/* box核心内容模块 */
+
+
+/* box头部模块 */
+
+.box-hd ul {
+    overflow: hidden;
+}
+
+.box-hd ul li {
+    display: block;
+    margin-top: 12px;
+    height: 30px;
+}
+
+.box-hd ul li:first-child {
+    float: left;
+}
+
+.box-hd ul li:last-child {
+    float: right;
+}
+
+
+/* box主题模块 */
+
+.box-bd ul {
+    width: 1225px;
+}
+
+.box-bd ul li {
+    width: 228px;
+    height: 270px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.box-bd ul li img {
+    width: 100%;
+}
